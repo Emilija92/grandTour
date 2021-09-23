@@ -1,17 +1,18 @@
 /********nav***********/
 
 let navBars = document.querySelector('.icon');
-let ul = document.querySelector('ul');
+let topnav = document.querySelector('.topnav');
 
-navBars.addEventListener('click', responsiveNav);
+navBars.addEventListener('click', (e) => {
+    e.preventDefault();
+    topnav.classList.toggle('responsive');
 
-function responsiveNav() {
-    if(ul.className === 'topnav') {
-        ul.className += ' responsive';
+    if(topnav.classList.contains('responsive')) {
+        topnav.style.visibility = 'visible';
     } else {
-        ul.className = 'topnav';
+        topnav.style.visibility = 'hidden';
     }
-}
+});
 
 /*************slider*************/
 

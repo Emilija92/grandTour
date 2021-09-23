@@ -234,16 +234,302 @@ numbers
     font-size: 2rem;
     font-weight: bold;
 }
+/*************************
+plan
+**************************/
+.plan {
+    padding: 80px 0;
+    text-align: center;
+    background: var(--blue);
+    color: var(--white);
+}
+.plan h2 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+.plan .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan .wrapper div {
+    flex: 0 0 32%;
+}
+.plan .wrapper div i {
+    font-size: 2.8rem;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    line-height: 90px;
+    background: var(--white);
+    color: var(--blue);
+}
+.plan .wrapper div h3 {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+.plan .wrapper div p {
+    font-size: 1.3rem;
+}
+/*************************
+destinations
+**************************/
+.destinations {
+    padding: 80px 0;
+}
+.destinations .cards {
+    display: flex;
+    justify-content: space-between;
+}
+.destinations .card {
+    flex: 0 0 23%;
+}
+.destinations .card img {
+    width: 100%;
+    display: block;
+}
+.destinations .img {
+    position: relative;
+}
+.destinations .price {
+    background: var(--blue);
+    display: inline-block;
+    padding: 7px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 30px;
+    left: 240px;
+}
+.destinations .price i {
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+.destinations .description {
+    padding: 20px;
+    border: 2px solid rgb(184, 184, 184);
+}
+.destinations .description i {
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+.destinations .description h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-family: serif;
+}
+.destinations .description h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.destinations .description p {
+    font-size: .9rem;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.destinations .description h4 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.destinations .description h4 span {
+    font-weight: bold;
+}
+.destinations button {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    display: block;
+    padding: 15px 30px;
+    background: var(--red);
+    border: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.destinations button:hover {
+    background: var(--blue);
+    color: var(--gray);
+    transition: .3s ease;
+    cursor: pointer;
+}
+/*************************
+enjoyTheTrip
+**************************/
+.enjoy {
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/slide-palms.jpg);
+    height: 400px;
+    background-position: center bottom;
+    padding: 80px 0;
+}
+.enjoy h2 {
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.enjoy p {
+    font-size: 1.3rem;
+    color: var(--white);
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.enjoy button {
+    padding: 15px 30px;
+    display: inline-block;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+}
+.enjoy button:hover {
+    color: var(--red);
+    border: 1px solid var(--red);
+    transition: var(--transition);
+    cursor: pointer;
+}
+/*************************
+popularDestinations
+**************************/
+.popularDestinations {
+    padding: 80px 0;
+    text-align: center;
+}
+.popularDestinations h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2;
+}
+.popularDestinations p {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+.popularDestinations .popular {
+    display: flex;
+    justify-content: space-between;
+}
+.popularDestinations .popular .place {
+    flex: 0 0 23%;
+    position: relative;
+}
+.popularDestinations .popular .place h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.popularDestinations .popular .place img {
+    width: 100%;
+}
+.popularDestinations .popular .place .stars {
+    background: var(--blue);
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+.popularDestinations .popular .place .stars i {
+    color: var(--white);
+}
+/*************************
+footer
+**************************/
+footer {
+    background: var(--gray);
+    padding: 80px 0;
+    color: var(--white);
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container div {
+    flex: 0 0 23%;
+}
+footer .container div h3 {
+    font-size: 1.5rem;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+footer .container div p {
+    font-size: 1.2rem;
+    opacity: .5;
+    line-height: 1.3;
+}
+footer .icons i {
+    font-size: 1.3rem;
+    margin: 10px 10px 0 0;
+}
+footer .icons i:nth-child(even) {
+    color: var(--blue);
+}
+footer .icons i:nth-child(odd) {
+    color: var(--red);
+}
+footer .icons i:hover {
+    color: var(--white);
+    transition: .3s ease;
+    cursor: pointer;
+}
+footer input {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid var(--red);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+footer input::placeholder {
+    color: var(--white);
+}
+footer button {
+    padding: 9px 20px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    color: var(--red);
+    font-size: 1rem;
+   margin-left: 10px;
+}
+footer button:hover {
+    color: var(--white);
+    border: 1px solid var(--red);
+    transition: var(--transition);
+    cursor: pointer;
+}
+/*************************
+bottomBar
+**************************/
+.bottomBar {
+    background: var(--blue);
+    padding: 20px 0;
+    color: var(--gray);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
 
 /***********************
 RESPONSIVE
 ************************/
 @media(max-width: 768px) {
-    nav .topnav {
-        display: none;
+    nav {
+        text-align: center;
+        line-height: 2;
     }
     nav .logo {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     nav .logo i {
         margin-right: 3px;
@@ -256,30 +542,24 @@ RESPONSIVE
     nav .icon:hover {
         color: var(--red);
     }
-    nav {
-        position: relative;
-    }
+    .topnav {
+      background-color: var(--blue);
+      position: absolute;
+      height: 70vh;
+      line-height: 2;
+      margin: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all .5s ease-in;
+      top: -350px;
+      left: 0;
+      z-index: 1;
+    }    
     .topnav.responsive {
-        position: absolute;
-        left: 0;
-        top: 50px;
-        display: block;
-        width: 100%;
-        height: 70vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--blue);
+        top: 80px;
     }
-
-    .topnav.responsive li {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-
-    .topnav.responsive li a {
-        font-size: 1.3rem;
-    }
+   
 }
