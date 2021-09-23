@@ -545,10 +545,10 @@ RESPONSIVE
     .topnav {
       background-color: var(--blue);
       position: absolute;
-      height: 70vh;
+      height: 50vh;
       line-height: 2;
       margin: auto;
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -557,9 +557,133 @@ RESPONSIVE
       top: -350px;
       left: 0;
       z-index: 1;
+      font-size: 2rem;
     }    
     .topnav.responsive {
-        top: 80px;
+        top: 50px;
     }
-   
+   .slideshow-container  {
+       display: none;
+   }
+   .dot {
+       display: none;
+   }
+   .intro {
+    padding: 20px 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .intro h2 {
+       font-size: 1.8rem;
+       line-height: 1.1;
+   }
+   .intro p {
+       font-size: 1rem;
+   }
+   .numbers {
+    padding: 20px 0;
+    flex-wrap: wrap;
+   }
+    .numbers div {
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    .numbers div i {
+        font-size: 2rem;
+    }
+    .numbers div h4 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .numbers div p {
+        font-size: 1.5rem;
+    }
+    .plan {
+        padding: 20px 0;
+    }
+    .plan h2 {
+        font-size: 2.5rem;
+    }
+    .plan .wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .plan .wrapper div {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .plan .wrapper div i {
+        font-size: 1.8rem;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    .plan .wrapper div h3 {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+    .plan .wrapper div p {
+        font-size: 1.1rem;
+    }
+    .destinations {
+        padding: 20px 0;
+    }
+    .destinations .cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .destinations .card {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .destinations button {
+        margin: 20px auto 0 auto;
+        display: block;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .enjoy {
+        padding: 40px 0;
+        height: 350px;
+    }
+    .enjoy h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .enjoy p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .popularDestinations {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .popularDestinations h2 {
+        font-size: 2.5rem;
+    }
+    .popularDestinations p {
+        font-size: 1.1rem;
+    }
+    .popularDestinations .popular {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .popularDestinations .popular .place {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    footer .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    footer .container div {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .bottomBar {
+        font-size: 1rem;
+    }
 }
